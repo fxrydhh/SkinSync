@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to SkinSync</title>
+    <style>
+        :root {
+            --accent: #d4a373; /* Earthy nude tone */
+            --bg: #fcf9f6;     /* Off-white luxury background */
+            --text: #2c2c2c;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .welcome-card {
+            background: white;
+            padding: 60px 40px;
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.03);
+            max-width: 500px;
+            border: 1px solid #f0ece9;
+        }
+
+        h1 {
+            font-weight: 300;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            color: var(--text);
+        }
+
+        p {
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .btn-quiz {
+            display: inline-block;
+            background-color: var(--text);
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+        }
+
+        .btn-quiz:hover {
+            background-color: var(--accent);
+            transform: translateY(-2px);
+        }
+
+        .footer-logo {
+            margin-top: 40px;
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+            color: #ccc;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="welcome-card">
+        <h1>Welcome</h1>
+        <p>Your profile has been successfully created. We are ready to formulate a skincare routine as unique as you are.</p>
+        
+        <a href="quiz.html" class="btn-quiz">Start My Skin Assessment</a>
+
+        <div class="footer-logo">SkinSync Labs</div>
+    </div>
+
+</body>
+</html>
